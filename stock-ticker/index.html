@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QUOTES</title>
+    <style type="text/css">
+        body {
+            font: 13px/ 1.385 Helvetica, Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div style="display: flex;flex-flow: row wrap">
+            <div id="quotesjs1" style="flex-grow: 3">
+                <h3>Popular light theme</h3>
+            </div>
+            <div style="flex-grow: 1"></div>
+            <div id="quotescrypo" style="flex-grow: 3">
+                <h3>Cryptocurrencies Dark theme</h3>
+            </div>
+    </div>
+    <hr />
+    <div style="display: flex;flex-flow: row wrap">
+            <div id="wmetal1" style="flex-grow: 3">
+                <h3>Metals light theme</h3>
+            </div>
+            <div style="flex-grow: 1"></div>
+            <div id="wmetal2" style="flex-grow: 3">
+                <h3>Metals light dark</h3>
+            </div>
+    </div>
+    <script>
+    (function (w,d,s,u,r,a,m) {
+         w['g_livequotes']=r;w[r]=w[r]||function(){
+         (w[r].q=w[r].q||[]).push(arguments)},w[r].l=1*new Date();
+         a=d.createElement(s),m=d.getElementsByTagName(s)[0];a.async=1;
+         a.src=u;m.parentNode.insertBefore(a, m);
+    })(window, document, 'script', 'bundle.js?1sss', 'livequotes');
+    livequotes('config', {
+        'lang': 'en',
+        'instances' : [
+            {
+                'parent': '#quotesjs1',
+                 'config': {
+                    'symbols': ["EURUSD", "FDAX", "USDCAD", "USDJPY"]
+                }
+            },
+            {
+                'parent': '#quotescrypo',
+                'config': {
+                    'symbols': ["ETHUSD", "XRPUSD", "BCHUSD", "DSHUSD"],
+                    'theme': 'dark'
+                }
+            },
+            {
+                'parent': '#wmetal1',
+                'config': {
+                    'symbols': ["PA", "PL", "XAUUSD", "XAGUSD", "BSAC"]
+                }
+            },
+
+            {
+                'parent': '#wmetal2',
+                'config': {
+                    'symbols': ["PA", "PL", "XAUUSD", "XAGUSD", "BSAC"],
+                    'theme': 'dark'
+                }
+            }
+        ]
+    })
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</body>
+</html>
