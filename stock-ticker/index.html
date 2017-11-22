@@ -11,44 +11,53 @@
 <body>
     <div style="display: flex;flex-flow: row wrap">
             <div id="quotesjs1" style="flex-grow: 3">
-                <h3>Popular light theme</h3>
+                <h3>Popular theme</h3>
             </div>
             <div style="flex-grow: 1"></div>
             <div id="quotescrypo" style="flex-grow: 3">
-                <h3>Cryptocurrencies Dark theme</h3>
+                <h3>Cryptocurrencies theme</h3>
+            </div>
+            <div style="flex-grow: 1"></div>
+            <div id="wmetal1" style="flex-grow: 3">
+                <h3>Metals theme</h3>
             </div>
     </div>
     <hr />
     <div style="display: flex;flex-flow: row wrap">
-            <div id="wmetal1" style="flex-grow: 3">
-                <h3>Metals light theme</h3>
+            <div id="agriculture" style="flex-grow: 3">
+                <h3>Agriculture theme</h3>
+            </div>
+            <div style="flex-grow: 1"></div>
+            <div id="oil" style="flex-grow: 3">
+                <h3>Oil and gas</h3>
             </div>
             <div style="flex-grow: 1"></div>
             <div id="wmetal2" style="flex-grow: 3">
-                <h3>Metals light dark</h3>
+                <h3>Metals dark</h3>
             </div>
     </div>
+
     <script>
     (function (w,d,s,u,r,a,m) {
          w['g_livequotes']=r;w[r]=w[r]||function(){
          (w[r].q=w[r].q||[]).push(arguments)},w[r].l=1*new Date();
          a=d.createElement(s),m=d.getElementsByTagName(s)[0];a.async=1;
          a.src=u;m.parentNode.insertBefore(a, m);
-    })(window, document, 'script', 'bundle.js?1sss', 'livequotes');
+    })(window, document, 'script', 'bundle.js?ss2314234', 'livequotes');
     livequotes('config', {
         'lang': 'en',
         'instances' : [
             {
                 'parent': '#quotesjs1',
                  'config': {
-                    'symbols': ["EURUSD", "FDAX", "USDCAD", "USDJPY"]
+                    'symbols': ["EURUSD", "FDAX", "USDCAD", "USDJPY"],
+                    'theme': 'dark'
                 }
             },
             {
                 'parent': '#quotescrypo',
                 'config': {
                     'symbols': ["ETHUSD", "XRPUSD", "BCHUSD", "DSHUSD"],
-                    'theme': 'dark'
                 }
             },
             {
@@ -64,10 +73,25 @@
                     'symbols': ["PA", "PL", "XAUUSD", "XAGUSD", "BSAC"],
                     'theme': 'dark'
                 }
+            },
+
+            {
+                'parent': '#agriculture',
+                'config': {
+                    'symbols': ["COFFEE", "SOYBEAN", "COCOA", "CORN", "WHEAT"],
+                    'theme': 'dark'
+                }
+            },
+            {
+                'parent': '#oil',
+                'config': {
+                    'symbols': ["CL", "WT", "BRN", "HO", "NG"],
+                    'theme': 'dark'
+                }
             }
         ]
     })
     </script>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="/build/style.css" />
 </body>
 </html>
