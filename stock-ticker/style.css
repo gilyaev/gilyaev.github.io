@@ -2,7 +2,7 @@
 .style__row___1a43S {
     display: flex;
     flex-flow: row wrap;
-    align-items:flex-end;
+    align-items:center;
 }
 
 .style__row___1a43S > div {
@@ -10,8 +10,8 @@
 }
 
 .style__name___SFlq_ {
+    flex-basis: 25%;
     font-weight: 700;
-    flex-basis: 100%;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
@@ -19,38 +19,44 @@
 
 .style__values___1Q8nk {
     flex-grow: 1;
+    text-align: right;
 }
 
 .style__values___1Q8nk > div {
     line-height: 1.1em;
-    padding: 10px 5px;
+    padding: 5px;
 }
 
-.style__buttons___3w3G8 a:first-child {
+.style__buttons___3w3G8 {
+}
+
+.style__buttons___3w3G8 a:not(:first-child) {
+    display: none;
+}
+
+.style__width375___2CMDy .style__values___1Q8nk,
+.style__width480___2LFNu .style__values___1Q8nk {
+    display: flex;
+}
+
+.style__width375___2CMDy .style__values___1Q8nk > div,
+.style__width480___2LFNu .style__values___1Q8nk > div {
+    flex-basis: 50%;
+}
+
+.style__width480___2LFNu .style__buttons___3w3G8 a:not(:first-child) {
+    display: inline;
+}
+
+.style__width480___2LFNu .style__buttons___3w3G8 a:first-child {
+    display: none;
+}
+
+.style__width480___2LFNu .style__buttons___3w3G8 a:nth-child(2) {
     margin-right: 10px;
 }
 
-.style__desktop___1VfRP.style__row___1a43S {
-    align-items: center;
-}
-
-.style__desktop___1VfRP .style__name___SFlq_ {
-    flex-basis: 33%;
-}
-
-.style__desktop___1VfRP .style__values___1Q8nk {
-    display: flex;
-    flex-grow: 2;
-    text-align: right;
-}
-
-.style__desktop___1VfRP .style__values___1Q8nk .style__value___fgMJF{
-    flex-basis: 50%;
-}
-
-.style__desktop___1VfRP .style__values___1Q8nk .style__precent___qw4y-{
-    flex-basis: 50%;
-}.buttons__btn___24OTj {
+.buttons__btn___24OTj {
     display: inline-block;
     padding: 6px 12px;
     margin-bottom: 0;
@@ -83,176 +89,98 @@ a.buttons__btn___24OTj {
 
 .table__cell___3t0wV {
 
-}.light__widgetContainer___10kxu {
+}.base__widgetContainer___3gpxR {
     font-size: 1em;
-    background-color: #fff;
-    color: black50;
 }
 
-.light__even___15k4c {}
+
+.base__btn___Vzsi9 {
+    color: #fff;
+    font-size: 1em;
+    padding: 8px 16px;
+}
+
+.base__btnPrimary___20Wxi {
+    background-color: rgb(126, 152, 229);
+    border-color: rgb(112, 135, 204);
+}
+
+.base__btnSuccess___1RvhB {
+    background-color: #58bd44;
+    border-color: #58bd44;
+}
+
+.base__btnDanger___1Es9_ {
+    background-color: #e64545;
+    border-color: #e64545;
+}
+
+.base__btnUp___2KPeE {
+}
+
+.base__btnUp___2KPeE:before {
+    content: url(data:image/gif;base64,R0lGODlhCAAMAIABAP///////yH5BAEAAAEALAAAAAAIAAwAAAIUjAGmiMv9YoLpVBUaztdt/mmYWAAAOw==);
+    margin-right: 5px;
+}
+
+.base__btnDown___3zLQ2 {
+}
+
+.base__btnDown___3zLQ2:before {
+    content: url(data:image/gif;base64,R0lGODlhCAAMAIABAP///////yH5BAEAAAEALAAAAAAIAAwAAAITjAGmgXvpWoRLVtoy2pxxvE1KAQA7);
+    margin-right: 5px;
+}
+
+
+.base__table___3zu-- {
+}
+
+.base__tableRow___2EhIV {
+}
+
+.base__even___3V4eg {}
+
+@keyframes base__tickPos___1qmRL {
+    from { background-color: #a6cf9d; }
+    to { background-color: rgba(166,207,157,0); }
+}
+
+@keyframes base__tickNeg___FYENa {
+    from { background-color: #f2a2a2; }
+    to { background-color: rgba(242,162,162,0); }
+}
+
+.base__tickNeg___FYENa {
+    animation: base__tickNeg___FYENa 1s 0s linear;
+}
+
+.base__tickPos___1qmRL {
+    animation: base__tickPos___1qmRL 1s 0s linear;
+}
+
+.base__colorPositive___14Fcc {
+    color: #53a642;
+}
+
+.base__colorNegative___2er0p {
+    color: #e64545
+}
+
+.light__widgetContainer___10kxu {
+    background-color: #fff;
+    color: #000;
+}
 
 .light__odd___29JmM {
     background-color: #F6F6F6;
 }
-
-.light__btn___fQ4ca {
-    color: #fff;
-    font-size: 1em;
-    padding: 8px 16px;
-}
-
-.light__btnPrimary___2iiLI {
-    background-color: #58bd44;
-    border-color: #58bd44;
-}
-
-.light__btnDanger___1L5T9 {
-    background-color: #e64545;
-    border-color: #e64545;
-}
-
-.light__btnUp___zkOiT {
-}
-
-.light__btnUp___zkOiT:before {
-    content: url(data:image/gif;base64,R0lGODlhCAAMAIABAP///////yH5BAEAAAEALAAAAAAIAAwAAAIUjAGmiMv9YoLpVBUaztdt/mmYWAAAOw==);
-    margin-right: 5px;
-}
-
-.light__btnDown___2dhF4 {
-}
-
-.light__btnDown___2dhF4:before {
-    content: url(data:image/gif;base64,R0lGODlhCAAMAIABAP///////yH5BAEAAAEALAAAAAAIAAwAAAITjAGmgXvpWoRLVtoy2pxxvE1KAQA7);
-    margin-right: 5px;
-}
-
-.light__colorPositive___3W24B {
-    color: #43a62d;
-}
-
-.light__colorNegative___2hUhs {
-    color: #f8672f;
-}
-
-.light__table___3ML96 {
-}
-
-.light__tableRow___20l_R {
-}
-
-
-@keyframes light__tickPos___fBDza {
-    from {
-        background-color: #a6cf9d;
-    }
-
-    to {
-        background-color: rgba(166,207,157,0);
-    }
-}
-
-@keyframes light__tickNeg___1MLIK {
-    from {
-        background-color: #f2a2a2;
-    }
-
-    to {
-        background-color: rgba(242,162,162,0);
-    }
-}
-
-.light__tickNeg___1MLIK {
-    animation: light__tickNeg___1MLIK 1s 0s linear;
-}
-
-.light__tickPos___fBDza {
-    animation: light__tickPos___fBDza 1s 0s linear;
-}
-
 .dark__widgetContainer___sFSxI {
     color: #fff;
-    font-size: 1em;
     background-color: #242526;
-}
-
-.dark__even___2P-WX {}
-
-.dark__odd___KSPwL {}
-
-.dark__btn___2Ejff {
-    color: #fff;
-    font-size: 1em;
-    padding: 8px 16px;
-}
-
-.dark__btnPrimary___2eTVi {
-    background-color: #58bd44;
-    border-color: #58bd44;
-}
-
-.dark__btnDanger___1dqQg {
-    background-color: #e64545;
-    border-color: #e64545;
-}
-
-.dark__btnUp___374nj {
-}
-
-.dark__btnUp___374nj:before {
-    content: url(data:image/gif;base64,R0lGODlhCAAMAIABAP///////yH5BAEAAAEALAAAAAAIAAwAAAIUjAGmiMv9YoLpVBUaztdt/mmYWAAAOw==);
-    margin-right: 5px;
-}
-
-.dark__btnDown___129XT {
-}
-
-.dark__btnDown___129XT:before {
-    content: url(data:image/gif;base64,R0lGODlhCAAMAIABAP///////yH5BAEAAAEALAAAAAAIAAwAAAITjAGmgXvpWoRLVtoy2pxxvE1KAQA7);
-    margin-right: 5px;
-}
-
-.dark__colorPositive___2OSQi {
-    color: #53a642;
-}
-
-.dark__colorNegative___2_Uhn {
-    color: #e64545
-}
-
-.dark__table___2agkw {
 }
 
 .dark__tableRow___30TvL {
     border-bottom: 1px solid #3a3b3c;
-}
-
-@keyframes dark__tickPos___1Kqle {
-    from {
-        background-color: #a6cf9d;
-    }
-
-    to {
-        background-color: rgba(166,207,157,0);
-    }
-}
-
-@keyframes dark__tickNeg___VS36D {
-    from {
-        background-color: #f2a2a2;
-    }
-
-    to {
-        background-color: rgba(242,162,162,0);
-    }
-}
-
-.dark__tickNeg___VS36D {
-    animation: dark__tickNeg___VS36D 1s 0s linear;
-}
-
-.dark__tickPos___1Kqle {
-    animation: dark__tickPos___1Kqle 1s 0s linear;
 }
 
 /*# sourceMappingURL=style.css.map*/
