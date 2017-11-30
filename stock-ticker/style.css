@@ -212,5 +212,96 @@ a.buttons__btn___24OTj {
 .style__width480___19g59 .style__values___RPPSB > div {
     flex-basis: 50%;
 }
+.style__chartContainer___1etE8 {
 
+}
+
+.style__controlPannel___2f1LD {
+    display: flex;
+    flex-flow: row wrap;
+    align-items:center;
+    margin-bottom:5px;
+}
+
+.style__controlPannel___2f1LD a {
+    color: #222222;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #f6f6f6;
+    font-weight: 700;
+}
+
+.style__chartTypes___3LkH3 {
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: 10px;
+}
+
+.style__chart___1WUtc {
+    border:1px solid #f6f6f6;
+}
+
+.style__intervals___-srQs {
+
+}
+
+.style__active___oYQPk {
+    background: #f6f6f6;
+}
+
+.style__intervals___-srQs a:nth-child(-n+6) {
+    display: none;
+}
+
+.style__width375___GoWCn .style__intervals___-srQs a:nth-child(5),
+.style__width375___GoWCn .style__intervals___-srQs a:nth-child(4) {
+    display: inline;
+}
+
+.style__width560___33uFI .style__intervals___-srQs a {
+    display: inline;
+}
+
+.style__status___2F6aA {
+    display: flex;
+    flex-flow: row wrap;
+    align-items:center;
+    margin-bottom:10px;
+    color: #999999;
+}
+
+.style__status___2F6aA > div span {
+   font-size: 1.1em;
+}
+
+.style__status___2F6aA div:first-child {
+    margin-right: 20px;
+}
+
+.style__description___3OhiV {}
+
+.style__width560___1ggrT .style__blockContainer___371S8 {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.style__width560___1ggrT .style__blockRight___3tIPv {
+    flex-basis: 40%;
+    margin-left: 40px;
+    order:1;
+}
+
+.style__width560___1ggrT .style__blockLeft___3w2Ev {
+    flex-basis: 60%;
+}
+
+.style__buttons___3m3zN {
+    align-items: flex-end;
+    margin: 10px 0;
+}
+
+.style__buttons___3m3zN a:first-child {
+    margin-right: 5px;
+}
 /*# sourceMappingURL=style.css.map*/
