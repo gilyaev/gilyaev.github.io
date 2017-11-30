@@ -280,20 +280,23 @@ a.buttons__btn___24OTj {
 
 .style__description___3OhiV {}
 
-.style__width560___1ggrT .style__blockContainer___371S8 {
+.style__width560___1ggrT.style__visible_description___2h95j .style__blockContainer___371S8,
+.style__width560___1ggrT.style__visible_buttons___1Y9Xg .style__blockContainer___371S8 {
     display: flex;
     flex-flow: row;
-    align-items: center;
+    align-items: flex-start;
 }
 
-.style__width560___1ggrT .style__blockRight___3tIPv {
+.style__width560___1ggrT.style__visible_description___2h95j .style__blockRight___3tIPv,
+.style__width560___1ggrT.style__visible_buttons___1Y9Xg .style__blockRight___3tIPv {
     flex-basis: 40%;
-    margin-left: 40px;
     order:1;
 }
 
-.style__width560___1ggrT .style__blockLeft___3w2Ev {
+.style__width560___1ggrT.style__visible_description___2h95j .style__blockLeft___3w2Ev,
+.style__width560___1ggrT.style__visible_buttons___1Y9Xg .style__blockLeft___3w2Ev {
     flex-basis: 60%;
+    margin-right: 40px;
 }
 
 .style__buttons___3m3zN {
