@@ -1,3 +1,6 @@
 [submodule "red"]
 	path = red
 	url = git@github.com:gilyaev/redroom.git
+[submodule "redroom"]
+	path = redroom
+	url = git@github.com:gilyaev/redroom.git
