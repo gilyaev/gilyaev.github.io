@@ -1,0 +1,3 @@
+[submodule "red"]
+	path = red
+	url = git@github.com:gilyaev/redroom.git
