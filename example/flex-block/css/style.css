@@ -1,0 +1,90 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.btn {
+  color: #ef7c46;
+  border: 2px solid #ef7c46;
+  box-sizing: content-box;
+  background-color: #fce5da;
+  border-radius: 2px;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+}
+.btn-margin {
+  margin-bottom: 10px;
+}
+.btn:hover {
+  background-color: #ef7c46;
+  color: #fff;
+}
+.sub-btn {
+  color: #999;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+.sub-btn:hover {
+  color: #ef7c46;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 765px) {
+  .row {
+    flex-direction: row;
+  }
+}
+.block-intro .summary {
+  padding: 10px 0px;
+}
+.block-intro .block-btn {
+  display: flex;
+  flex-direction: column;
+}
+.block-intro .play-market {
+  order: -1;
+  margin: 20px 0;
+  text-align: center;
+}
+.block-intro .trading {
+  text-align: center;
+}
+.block-intro .banner {
+  order: -1;
+}
+.block-intro .banner img {
+  max-width: 100%;
+  height: auto;
+}
+@media (min-width: 765px) {
+  .block-intro .block-btn {
+    order: -1;
+    flex-grow: 2;
+    align-self: flex-end;
+  }
+  .block-intro .banner {
+    flex-basis: 45%;
+    margin-left: auto;
+    order: 1;
+    margin-top: -78px;
+  }
+  .block-intro .play-market {
+    order: 1;
+    margin: 0;
+  }
+  .block-intro .trading {
+    margin-bottom: 10px;
+  }
+  .block-intro .summary {
+    flex-basis: 55%;
+  }
+}
