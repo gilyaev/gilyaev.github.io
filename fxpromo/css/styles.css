@@ -1,0 +1,67 @@
+@font-face{font-family:Myriad;src:url(../font/MyriadPro-SemiboldCondIt.ttf)}html{font-family:Myriad,Arial,Helvetica,sans-serif;font-size:18px;word-wrap:normal}
+h1{margin:0;text-transform:uppercase;font-size:3.9rem}@media(max-width:640px){h1{font-size:2rem}
+}h2{margin:0;margin-bottom:20px;text-transform:uppercase;font-size:2rem}@media(max-width:640px){h2{margin:0;font-size:1rem}
+}h3{font-size:1.3rem;margin:0;font-weight:normal}body{width:100%;min-width:320px}
+.message{width:200px;height:50px;-webkit-transform:translateX(-50%);transform:translateX(-50%);position:fixed;padding:10px 20px;border:2px solid gray;border-radius:4px;text-align:center;background:#f6f8fa;-webkit-box-shadow:3px 3px 3px rgba(0,0,0,0.3);box-shadow:3px 3px 3px rgba(0,0,0,0.3)}
+:lang(ru) .message:before{content:'Регистарция прошла успешно'}.ok-btn{width:20px;-webkit-transform:translateX(-50%);transform:translateX(-50%);position:fixed;padding:5px 10px;border:.5px solid #3a4252;border-radius:4px;text-align:center;background:#3a4252}
+.ok-btn:hover{cursor:pointer}body .champion .error{border:solid 1px red}.btn{margin:3px;margin-top:20px;border:0;border-radius:5px;width:350px;height:50px;font-size:1.3rem;color:white;background-color:#ff8000;-webkit-box-shadow:0 2px 1px 0 #ca3e00;box-shadow:0 2px 1px 0 #ca3e00}
+@media(max-width:640px){.btn{margin-top:30px;width:100%}}a.btn{display:block;text-decoration:none;text-align:center;line-height:50px;margin:0 auto;margin-top:20px}
+.btn:hover{color:#ff8000;background-color:white;-webkit-box-shadow:0 0 0 0 #ff8000;box-shadow:0 0 0 0 #ff8000;cursor:pointer}
+.btn:active{-webkit-box-shadow:none;box-shadow:none}.btn-disabled{margin:3px;margin-top:20px;border:0;border-radius:5px;width:350px;height:50px;font-size:1.3rem;color:white;background-color:gray;-webkit-box-shadow:0 2px 1px 0 gray;box-shadow:0 2px 1px 0 gray}
+@media(max-width:640px){.btn-disabled{margin-top:30px;width:100%}}header{height:0;position:relative;top:20px;padding:0 15%;-webkit-box-sizing:border-box;box-sizing:border-box;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
+header a{display:block;height:100%}header .logo{background-color:transparent;background-size:cover;background-repeat:no-repeat;background-position:center;height:40px;width:143px;background-image:url(../img/libertex-logo.png)}
+header .badge{background-color:transparent;background-size:cover;background-repeat:no-repeat;background-position:center;height:62px;width:129px;background-image:url(../img/badge.png)}
+@media(max-width:640px){header{padding:0}}.background-section-champion{background-image:url(../img/background-football.png);background-color:transparent;background-size:cover;background-repeat:no-repeat;background-position:center;background-size:auto;background-color:black;background-clip:padding-box}
+@media(max-width:640px){.background-section-champion{background-image:url(../img/background-football-mobile.png);background-size:cover}
+}@media(min-width:1200px){.background-section-champion{background-size:cover}}.background-section-table{background-color:#3a4252}
+.champion{width:600px;margin:0 auto;padding-top:135px;padding-bottom:45px;color:white;text-align:center}
+@media(max-width:640px){.champion{padding:100px 13px 20px 13px;width:auto}}.champion .awards{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin-top:54px;margin-bottom:115px}
+.champion .awards__award{height:102px;width:117px;background-repeat:no-repeat;margin:0 20px}
+.champion .awards__award--affiliate{background-image:url(../img/best-affiliate-program.png)}
+.champion .awards__award--mobile{background-image:url(../img/the-best-mobile-app.png)}.champion .awards__award--finance{background-image:url(../img/world-finance.png)}
+@media(max-width:640px){.champion .awards__award{padding:0 10px;-webkit-box-sizing:border-box;box-sizing:border-box;background-size:contain}
+}@media(max-width:640px){.champion .awards{margin:20px 0;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;min-width:0}
+}.champion .registration-form{margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:600px;height:140px}
+.champion .registration-form__field{width:280px;height:40px;margin:3px;border:0;border-radius:5px;padding:0 1rem;-webkit-box-sizing:border-box;box-sizing:border-box}
+@media(max-width:640px){.champion .registration-form__field{width:48%;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}
+}@media(max-width:480px){.champion .registration-form__field{width:100%;margin:3px 0;-webkit-box-sizing:border-box;box-sizing:border-box}
+}@media(max-width:640px){.champion .registration-form{width:100%}}@media(max-width:480px){.champion .registration-form{height:auto;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+}.table-section{width:600px;margin:0 auto;color:white;padding:40px 0;text-align:center}
+@media(max-width:640px){.table-section{padding:3px;padding-top:20px;padding-bottom:50px;-webkit-box-sizing:border-box;box-sizing:border-box;width:auto}
+}.table-section .plate{width:100%;height:525px;background-color:#121623;background-clip:padding-box;padding:0 10px 50px 10px;-webkit-box-sizing:border-box;box-sizing:border-box;border-radius:5px}
+@media(max-width:640px){.table-section .plate{margin-top:10px}}.table-section .tournament-table{width:100%;height:100%;border-collapse:collapse;background-color:transparent}
+.table-section .tournament-table td{border-bottom:solid 2px #121623}.table-section .tournament-table th:nth-child(1){width:8%;min-width:54px}
+.table-section .tournament-table th:nth-child(2){width:40.8%}.table-section .tournament-table th:nth-child(3){width:29%}
+.table-section .tournament-table th:nth-child(4){width:20.3%}.table-section .tournament-table tbody tr{background-image:url(../img/1px-row-line.png);background-size:contain}
+.table-section .tournament-table tbody tr td:first-child{border-top-left-radius:5px;border-bottom-left-radius:5px;background-image:url(../img/table-gray-row-marker.png);background-color:transparent;background-size:contain;background-repeat:no-repeat;background-position:left top}
+.table-section .tournament-table tbody tr td:first-child.top{background-image:url(../img/table-orange-row-marker.png)}
+.table-section .tournament-table tbody tr td:last-child{border-top-right-radius:5px;border-bottom-right-radius:5px;font-size:0}
+.table-section .tournament-table thead{color:#626e86;text-transform:uppercase}.table-section .tournament-table thead th{line-height:50px}
+.table-section .tournament-table thead th:hover{cursor:pointer}@media(max-width:480px){.table-section .tournament-table thead{font-size:.7rem}
+}.table-section .tournament-table thead .sort-up:after{display:inline-block;width:10px;height:13px;margin-left:2px;content:'';background-image:url(../img/arrow-sort-revers.png);background-color:transparent;background-size:cover;background-repeat:no-repeat;background-position:center}
+.table-section .tournament-table thead .sort-down:after{display:inline-block;width:10px;height:13px;margin-left:2px;content:'';background-image:url(../img/arrow-sort.png);background-color:transparent;background-size:cover;background-repeat:no-repeat;background-position:center}
+.table-section .tournament-table .flag{display:inline-block;height:11px;width:14px;background-color:transparent;background-size:cover;background-repeat:no-repeat;background-position:center}
+.table-section .tournament-table .flag--ru{background-image:url(../img/flag-ru.png)}
+.table-section .tournament-table .flag--spain{background-image:url(../img/flag-sp.png)}
+.table-section .tournament-table .flag--china{background-image:url(../img/flag-ch.png)}
+.table-section .tournament-table .top{background-image:url(../img/table-orange-row-marker.png);background-color:transparent;background-size:contain;background-repeat:no-repeat;background-position:left top}
+.summary{width:600px;margin:0 auto;padding:50px 0;color:#373737;font-size:.8rem}.summary h2{text-align:center}
+.summary .summary-text{padding-bottom:30px}@media(max-width:640px){.summary{padding:25px 3px;width:auto}
+}.summary .video{position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden}
+.summary iframe{position:absolute;top:0;left:0;width:100%;height:100%}footer{background-color:#f6f8fa;font-size:.7rem;padding-top:32px;padding-bottom:58px}
+@media(max-width:640px){footer{padding:20px 3px}}footer .footer-adress{text-align:center}
+footer .social-net{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin:15px 0}
+footer .security-policy{text-align:center;color:#ff8000;padding-bottom:35px}footer .security-policy span{margin:0 10px}
+footer .payment{width:600px;margin:0 auto;border-top:dotted 1px;border-bottom:dotted 1px;padding-top:35px;padding-bottom:45px;text-align:center}
+@media(max-width:640px){footer .payment{width:auto}}footer .money{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around}
+@media(max-width:640px){footer .money{-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+}footer .money__service{margin-top:30px;height:33px;background-color:transparent;background-size:cover;background-repeat:no-repeat;background-position:center;background-image:url(../img/payment-sys-sprite.png)}
+@media(max-width:640px){footer .money__service{margin:0 5px}}footer .money__service--webmoney{background-position-x:0;width:100px}
+footer .money__service--visa{background-position-x:-110px;width:50px}footer .money__service--skriil{background-position-x:-175px;width:60px}
+footer .money__service--ya{background-position-x:-240px;width:80px}footer .money__service--mastercard{background-position-x:-340px;width:50px}
+footer .money__service--qvisa{background-position-x:-400px;width:80px}footer .money a{display:block;height:100%}
+footer .secure{padding-top:35px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:gray}
+footer .secure__item{margin-left:30px;margin-right:5px;background-color:transparent;background-size:cover;background-repeat:no-repeat;background-position:center}
+footer .secure--mcafee{width:63px;height:30px;background-image:url(../img/mcafee.png)}
+footer .secure--lock{width:18px;height:20px;background-image:url(../img/ssl.png)}
+footer .secure a{display:block;height:100%}
