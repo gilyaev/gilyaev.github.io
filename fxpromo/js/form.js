@@ -59,11 +59,11 @@ function validate(form) {
     checkValidInput(elems.email, /[a-zA-Z0-9_]+@[a-zA-Z0-9_]/, false);
     // /^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$/
 
-    for (let key in elems) {
-        if (typeof (elems[key]) == 'object') {
-            if (elems[key].isValid == false) return false;
-        }
-    }
+    // for (let key in elems) {
+    //     if (typeof (elems[key]) == 'object') {
+    //         if (elems[key].isValid == false) return false;
+    //     }
+    // }
     return true;
 }
 //-------------------------------------- promise
@@ -72,7 +72,7 @@ function request() {
     return new Promise(function (resolve, reject) {
         setTimeout(function () {
             resolve(showMessage());
-        }, 2000);
+        }, 1000);
     });
 }
 
@@ -96,7 +96,7 @@ form.onclick = function (e) {
             request()
                 .then(
                     response => {
-                        btnSubmit[0].disabled = true;
+                        // btnSubmit[0].disabled = true;
                         btnSubmit[0].classList.remove('btn');
                         btnSubmit[0].classList.add('btn-disabled');
                     },

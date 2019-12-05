@@ -65,3 +65,4 @@ footer .secure__item{margin-left:30px;margin-right:5px;background-color:transpar
 footer .secure--mcafee{width:63px;height:30px;background-image:url(../img/mcafee.png)}
 footer .secure--lock{width:18px;height:20px;background-image:url(../img/ssl.png)}
 footer .secure a{display:block;height:100%}
+@media(max-width:640px){footer .money__service--ya {margin-top:-15px}}

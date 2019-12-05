@@ -94,8 +94,8 @@ var sortTable = (function (global) {
         this.table.replaceChild(clone_tbody, original_tbody);
 
 
-        global.localStorage.setItem('sort_index', index);
-        global.localStorage.setItem('sort_direction', this.direction);
+        // global.localStorage.setItem('sort_index', index);
+        // global.localStorage.setItem('sort_direction', this.direction);
     }
     return Tablesort;
 })(window);
